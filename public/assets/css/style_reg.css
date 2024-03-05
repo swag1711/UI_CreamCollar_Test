@@ -1,0 +1,143 @@
+body {
+    background-color: #fff; /* Set the background color to white */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin:  auto;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+label {
+    display:block;
+    font-weight: bold;
+    text-align:start;
+    
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+
+input[type="file"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f28521;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.button1 {
+    background-color: #f28521;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+  
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the wrapper takes up at least the full height of the viewport */
+  }
+  
+  .content {
+    flex: 1; /* Allow the content to grow to fill available space */
+  }
+
+button:hover {
+    background-color: #f28521;
+}
+
+
+ 
+.radio-buttons {
+    display: flex;
+  }
+ 
+  .radio-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px; /* Increase padding */
+    padding-right: 25px;
+    cursor: pointer;
+  }
+ 
+  .radio-text {
+    margin-left: 10px; /* Adjust margin */
+  }
+ 
+  .radio-button:hover {
+    background-color: #f0f0f0;
+  }
+
+  .button2 {
+    background-color: #f28521;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 35px;
+    font-size: 14px;
+    
+    width: 85%;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+
+  .button3 {
+    background-color: #f28521;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 3px;
+    font-size: 14px;
+    width: 85%;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+ 
+ 

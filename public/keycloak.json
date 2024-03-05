@@ -1,0 +1,9 @@
+
+{
+  "realm": "creamcollar",
+  "auth-server-url": "https://test1.cream-collar.com:8443",
+  "ssl-required": "external",
+  "resource": "admin-cli",
+  "public-client": true,
+  "confidential-port": 0
+}

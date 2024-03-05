@@ -1,0 +1,207 @@
+
+
+/* computer device */
+.domaincategory .owl-nav .owl-prev,.domaincategory .owl-nav .owl-next {
+    font-size: 36px !important;
+    position: absolute;
+    top: -80%;
+    color: #4D4D4D;
+  }
+
+/* media queries */
+@media (min-width: 926px) {
+    /* App.css */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100%;
+  }
+  
+  .slider {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    width:80%;
+  }
+  
+  .category {
+    flex: 0 0 150px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .arrows {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .arrow {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+/* last   */
+    .blogcontainer{
+        width: 100%; 
+        height: 100%; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        gap: 10px; 
+        display: inline-flex;
+    }
+    .blogcontainer2{
+        width: 1122px; 
+        height: 334px; 
+        position: relative;
+    }
+    .blogcontent{width: 768px; color: #4D4D4D; font-size: 18px; font-family: Roboto; font-weight: 400; line-height: 24px; word-wrap: break-word;}
+    .blogcontainerheading{
+        width: 639px; color: #E48900; font-size: 32px; font-family: Gothic A1; font-weight: 700; word-wrap: break-word;
+    }
+    .blogcontainer img{
+        width: 291px; 
+        height: 334px; 
+        left: 831px; 
+        top: 0px; 
+        position: absolute; 
+        border-radius: 130px;
+    }
+    .leftcontainer{
+        width: 809px; 
+        height: 160px; 
+        left: 0px; 
+        top: 96px; 
+        position: absolute; 
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        gap: 16px; 
+        display: inline-flex;
+    }
+}
+/* normal tablet devices */
+/* @media ((min-width: 451px) and (max-width: 960px)) {
+
+} */
+/* small devices */
+@media (max-width: 925.99px) {
+    .flex1{
+        justify-content: flex-start; 
+        align-items: center; 
+        width: 100%; 
+        height: 100%; 
+        padding-top: 12px; 
+        padding-bottom: 12px; 
+        padding-left: 24px; 
+        padding-right: 32px; 
+    }
+
+   .blog1{
+    width:60%;
+    width: 188px; 
+    color: #F28521; 
+    font-size: 24px; 
+    font-family: Gothic A1; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    text-align: left;
+    margin-right:148px;
+    margin-top: 35px;
+    align-items: center;
+    
+   }
+   .blog2{
+    width: 113px; 
+    height: 130px; 
+    float:right;
+    margin-top:-20%;
+   }
+   .blog3{
+    clear:both;
+   }
+.blogcontainer{
+    width: 100%; 
+    height: 100%; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    padding-left: 24px; 
+    padding-right: 32px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 12px; display: inline-flex;
+}
+
+.blogcontainerheading{
+    width: 188px; 
+    color: #F28521; 
+    font-size: 24px; 
+    font-family: Gothic A1; 
+    font-weight: 700; 
+    word-wrap: break-word;
+}
+.blogcontainer img{
+    width: 113px; 
+    height: 130px; 
+    border-radius: 130px;
+    float:right;
+    padding-top: 0px; 
+    margin-top: 0px; 
+}
+.blogcontainer div{
+   width:100%;
+   clear:both !important;
+   object-position: bottom;
+}
+.blogcontainercontent{
+    align-self: stretch; 
+    color: #4D4D4D; 
+    font-size: 16px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+    
+}
+
+ 
+/* Styles for the overall progress bar */
+progress {
+   
+  
+  height: 8px; /* Adjust the height as needed */
+    border-radius: 15px; /* Capsule shape */
+    color: #00213D; /* For browsers that support color styling */
+  }
+ 
+  /* Styles for the filled part of the progress bar */
+  progress::-webkit-progress-bar {
+    background-color: #E2EBF3;
+    border-radius: 15px; /* Capsule shape for background */
+  }
+ 
+  progress::-webkit-progress-value {
+    background-color: #2F80ED; /* Red color for the filled part */
+    border-radius: 15px 0 0 15px; /* Capsule shape on the left side */
+  }
+ 
+  progress::-moz-progress-bar {
+    background-color: #2F80ED; /* Red color for the filled part in Firefox */
+    border-radius: 15px 0 0 15px; /* Capsule shape on the left side in Firefox */
+  }
+ 

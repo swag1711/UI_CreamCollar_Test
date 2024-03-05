@@ -1,0 +1,463 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 10px;
+    padding: 48px 166px;
+    position: relative;
+    background-color: #ffffff;
+  }
+ /* Sample CSS */
+.image-container {
+  position: relative;
+  max-width: 600px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center align contents */
+}
+
+.cropping-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Occupy the entire width of the container */
+  height: 100%; /* Occupy the entire height of the container */
+  z-index: 1; /* Ensure the cropping area is above the image */
+}
+
+/* Adjust other styles as needed */
+
+  
+  .frame .div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    
+    width: 50%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame .div-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 400px;
+    flex: 0 0 auto;
+  }
+  
+  .frame .input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 20px;
+  }
+  
+  .frame .base-inputfield input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-4 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .label-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #252525;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame .div-5 input{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 400px;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #cccccc;
+  }
+  
+  .frame .placeholder-text {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #808080;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .frame .div-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 13px;
+    align-self: stretch;
+    width: 400px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .DMP-input-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .base-inputfield-2 input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 400px;
+    flex: 0 0 auto;
+  }
+  
+  .frame .assistive-text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #f18521;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  
+  .frame .buttons {
+    display: flex;
+    width: 144px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 7px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #f28521;
+    border-radius: 46px;
+  }
+  
+  .frame .button {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "SF Pro Text-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .frame .div-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .line {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 1px;
+    margin-top: -1px;
+    object-fit: cover;
+  }
+  
+  .frame .div-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .div-9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 50px;
+  }
+  
+  .frame .div-10 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: -5px;
+    background-color: var(--white);
+    border-radius: 34px;
+    border: 1px solid;
+    border-color: #cccccc;
+    mix-blend-mode: luminosity;
+  }
+  
+  .frame .div-11 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    background-color: var(--white);
+  }
+  
+  .frame .div-12 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 7px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .image {
+    width: 23px;
+    object-fit: cover;
+    position: relative;
+    height: 24px;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-1);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame .div-13 {
+    display: flex;
+    flex-direction: column;
+    width: 117px;
+    align-items: flex-start;
+    position: relative;
+    background-color: var(--white);
+    border-radius: 34px;
+    border: 1px solid;
+    border-color: #cccccc;
+    mix-blend-mode: luminosity;
+  }
+  
+  .frame .div-14 {
+    position: relative;
+    width: 127px;
+    height: 1px;
+    margin-right: -10px;
+    background-color: var(--white);
+  }
+  
+  .frame .div-15 {
+    display: flex;
+    width: 112px;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 7px 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .img {
+    width: 24px;
+    margin-left: -2.5px;
+    position: relative;
+    height: 24px;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    margin-right: -2.5px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-1);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .frame .div-16 {
+    display: flex;
+    flex-direction: column;
+    width: 117px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: -5px;
+    background-color: var(--white);
+    border-radius: 54px;
+    border: 1px solid;
+    border-color: #cccccc;
+  }
+  
+  .frame .div-17 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 7px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .frame .image-2 {
+    width: 25px;
+    position: relative;
+    height: 24px;
+  }
+  
+  .frame .text-wrapper-4 {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-1);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .frame .div-18 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame .p {
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-1);
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .frame .assistive-text-2 {
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #f18521;
+    text-decoration: underline;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  

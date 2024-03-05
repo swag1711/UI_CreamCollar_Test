@@ -1,0 +1,166 @@
+/* common css start*/
+.fg_outer{
+    align-self: stretch;
+    background: white; 
+    box-shadow: 0px 8px 40px rgba(9, 44, 76, 0.08); 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: inline-flex;
+}
+/* common css end*/
+
+@media (min-width:877px){
+    .fg_outer{
+      
+        width: 512px ; 
+        padding:45px 45px 70px;
+        box-shadow: 0px 8px 40px rgba(9, 44, 76, 0.08); 
+        border-radius: 20px; 
+        
+    }
+}
+@media ((max-width:876px) and (min-width:576px)){
+    .fg_outer{
+      
+        width: 512px ; 
+        padding:45px 45px 70px;
+        box-shadow: 0px 8px 40px rgba(9, 44, 76, 0.08); 
+        border-radius: 20px; 
+        
+    }
+}
+@media (max-width:576px){
+    .fg_outer{
+      
+        width: 328px ; 
+        padding:32px 16px 44px; 
+        box-shadow: 0px 8px 40px rgba(9, 44, 76, 0.08); 
+        border-radius: 12px; 
+       
+    }
+}
+
+
+@media (min-width:877px){
+    .fg_acc{
+    
+        font-size : 18px;
+        font-weight: 700;
+       
+    }
+}
+@media ((max-width:876px) and (min-width:576px)){
+    .fg_acc{
+    
+        font-size : 18px;
+        font-weight: 700;
+       
+    }
+}
+@media (max-width:576px){
+    .fg_acc{
+    
+        font-size : 16px;
+        font-weight: 700;
+       
+    }
+}
+
+@media (min-width:877px){
+    .fg_inner{
+    
+        gap: 32px;
+       
+    }
+}
+@media ((max-width:876px) and (min-width:576px)){
+    .fg_inner{
+    
+        gap: 32px;
+       
+    }
+}
+@media (max-width:576px){
+    .fg_inner{
+    
+        gap: 24px;
+       
+    }
+}
+
+@media (min-width:877px){
+    .fg_icon{
+    
+        width: 120px;
+        height: 120px;
+        position: relative;
+       
+    }
+}
+@media ((max-width:876px) and (min-width:576px)){
+    .fg_icon{
+    
+        width: 120px;
+        height: 120px;
+        position: relative;
+       
+    }
+}
+@media (max-width:576px){
+    .fg_icon{
+    
+        width: 80px;
+        height: 80px;
+
+        position: relative;
+       
+    }
+}
+
+@media (min-width:877px){
+    .fg_box{
+        
+        gap: 4px;
+       
+    }
+}
+@media ((max-width:876px) and (min-width:576px)){
+    .fg_box{
+    
+        gap: 4px;
+       
+    }
+}
+@media (max-width:576px){
+    .fg_box{
+    
+        gap: 8px;
+       
+    }
+}
+
+@media (min-width:877px){
+    .fg_exp{
+    
+        font-size : 16px;
+        font-weight: 700;
+       
+    }
+}
+@media ((max-width:876px) and (min-width:576px)){
+    .fg_exp{
+    
+        font-size : 16px;
+        font-weight: 700;
+       
+    }
+}
+@media (max-width:576px){
+    .fg_exp{
+    
+        font-size : 14px;
+        font-weight: 600;
+       
+    }
+}

@@ -1,0 +1,172 @@
+.prof_circular_status1{
+    width: 140px;height: 140px;position: absolute;border:5px solid transparent;border-radius: 9999px;transform-origin: 0px 0px;padding: 8px;
+}
+ 
+.highlightable-field:hover {
+    background-color: #F2F7FE; /* Example background color */
+   
+   
+   
+  }
+  .activeprofiletab span{
+    color: #0B6AEA !important;
+font-size: 16px !important;
+font-family: Inter !important;
+font-weight: 700 !important;
+  }
+  .buttonbkcolornone3 {
+    background-color: #F6F9FC !important;
+  }
+  .profilebottomborder{
+    padding-bottom: 24px;
+    border-bottom: 1px #E2EBF3 solid;
+  }
+  .customDatePicker {
+    border :1px solid #E2EBF3 !important ;
+    height: 55px !important;
+    border-radius: 12px !important;
+   
+  }
+  .react-datepicker-wrapper {
+    width: 100% ;
+  }
+ .log_btn_hover:focus-visible {
+  border:1px #0B6AEA solid !important;
+ }
+ input::placeholder,textarea::placeholder{
+  font-size: 16px;
+  font-family: inter;
+  font-weight: 400;
+}
+.activeprofiletab {
+  background-color: #F2F7FE ;
+  border-radius: 4px;
+  
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="file"], textarea, select{
+  margin-bottom :0px;
+ 
+}
+
+input[type="text"]{
+  padding : 16px 20px !important;
+}
+
+
+/*Styles added by gokul starts here for Technical competencies*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.skill-section-container{
+  width: 100%;
+  text-align: left;
+  
+}
+
+.skill-flexbox{
+  display: flex;
+ 
+  flex-direction: column;
+  border-radius: 22px;
+  background-color: white;
+
+}
+
+.intrest-head{
+  text-align: left;
+}
+
+.seperator-div{
+ border-bottom:1px solid #E2EBF3;
+}
+
+.skill-selection-flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+ 
+  
+}
+.selected-option-flexbox{
+  width: 50%;
+  height: 100%;
+  padding-right: 40px;
+
+}
+.skill-selected-section{
+  display: flex;
+  gap: 10px;
+  padding: 2px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 100%;
+  justify-content: flex-start;
+  
+}
+
+.skill-selected{
+  padding:8px 24px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: max-content;
+  color: #4A5965;
+  background-color: #CDE7FF80;
+
+}
+
+
+.skill-input-section{
+  color: #4A5965;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #E2EBF3;
+  outline: none;
+}
+
+
+.skill-text{
+  color: #4A5965;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+
+
+}
+
+.save-discard-btn-section{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 50%;
+  margin-top: 10px;
+}
+
+.save-btn{
+  background: #0B6AEA !important;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 12px ;
+  border: none;
+  width: 80px;
+}
+
+.discard-btn{
+  background-color: transparent;
+  border: none;
+  color: #0B6AEA;
+  font-weight: bold;
+  background:none !important
+}
+
+button :focus{
+  border:none !important;
+  outline:none !important;
+}
+/*Styles added by gokul endss here for Technical competencies*/

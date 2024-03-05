@@ -1,0 +1,40 @@
+.videoheadingonhover:hover{
+border-bottom: 4px solid #626262;
+}
+.videoheadingonactive{
+    border-bottom: 4px solid #626262;
+    }
+.videomenudisplay{
+display:none;
+}
+.div_has_ptag p {
+margin:0;
+font-size: 16px;
+font-weight: 400;
+
+}
+.circular_status{
+    width: 84px;height: 84px;position: absolute;border:5px solid white;border-radius: 9999px;transform-origin: 0px 0px;padding:5px;
+}
+.CircularProgressbar-path {
+    stroke: rgb(39, 174, 96) !important;
+    stroke-width: 4;
+}
+.CircularProgressbar-trail {
+    stroke-width: 4;
+    stroke: transparent !important;
+}
+.desktopview_sticky{
+    position:sticky;
+    top:32px;
+}
+
+@media ((max-width:770px)) {
+.margincontrolmbview{
+    margin-top: 5%;
+}
+.desktopview_sticky{
+    position:relative;
+    top:0;
+}
+}
